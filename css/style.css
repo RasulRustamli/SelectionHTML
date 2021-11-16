@@ -1,0 +1,116 @@
+p{
+    color: rgb(122, 109, 116);
+}
+
+#test{
+    color: rgb(10, 2, 15);
+}
+
+.test{
+ color: rgb(8, 32, 104);
+}
+
+.test1.test2{
+    color: rgba(119, 2, 2, 0.548);
+}
+.test1 .test2{
+    color: rgb(8, 241, 66);
+}
+
+p,h4{
+    color:rgb(17, 17, 6);
+}
+
+div p{
+    color: royalblue;   
+}
+
+
+
+div ~ p{
+    color: saddlebrown;
+}
+div+p{
+    color: seagreen;
+}
+
+div>p{
+    color: salmon;
+}
+
+
+p~ul{
+    color: skyblue;
+}
+
+h2[class]{
+   color: violet;
+}
+
+[class*="test"] {
+  color: black;
+  background: #ffff00;
+} 
+a:active {
+  color: yellow;
+}
+p::after { 
+  content: " - Remember this";
+} 
+ p::before {
+  content: "Read this -";
+}
+input:checked {
+  height: 10px;
+  width: 10px;
+} 
+ input:default {
+  box-shadow: 0 0 1px 1px red;
+} 
+ p:empty {
+  
+  color: blue;
+} 
+ p:first-child {
+  color: yellow;
+} 
+ p::first-letter {
+  font-size: 200%;
+  color: blueviolet;
+} 
+ p::first-line {
+  color: rgb(190, 28, 90);
+} 
+ input:focus {
+  background: rgb(52, 131, 124);
+} 
+ input:in-range {
+  border: 2px solid rgba(185, 5, 104, 0.315);
+} 
+input:read-only {
+  background-color: rgb(32, 32, 16);
+}
+a:visited {
+  color: rgb(53, 41, 43);
+}
+::selection {
+    color: rgb(208, 255, 0);
+    background: rgb(0, 110, 255);
+  }
+  p:last-child {
+    background: #ff0000;
+  }
+  input:valid {
+    background-color: yellow;
+  }
+  input:optional {
+    background-color: yellow;
+  }
+.IMG{
+    height: 1000px;
+    background-image: url(https://besthqwallpapers.com/Uploads/20-2-2021/156078/thumb2-hyundai-tucson-n-line-2021-4k-front-view-exterior.jpg);
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+}
+
